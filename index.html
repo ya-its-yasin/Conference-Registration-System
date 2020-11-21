@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>index page</title><link rel="icon" href="images/ap5.png" />
+<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<body style="background-color:black;">
+
+<div align="center" style="margin-top:5%">
+<img  height="150" width="150" src="images/co.png" ><br><br>
+<form style="width:25%"  action="studentlogin.php" method="post" >
+			<div><input type="text" class="form-control" name="user" placeholder=" Enter your name.." required />
+</div><br><div><input type="password" class="form-control" name="pass" placeholder=" Enter your password.." required /></div>
+<br><div class="form-group">
+							<button class="btn btn-danger" type="submit"  id="submit" style="color:white;" >LOG IN</button>
+							
+							</div>
+</form>
+<button class="btn btn-info" onclick="reg()">SIGN UP</button>
+							
+</div>
+
+<form action="two.php" method="post" >
+<div style="margin-left:75% ;display:flex; margin-top:10%">
+<div><input type="password" id="adminpass" name="adminpass" class="form-control" placeholder=" Enter admin password.." required />
+</div><div><button class="btn btn-danger" type="submit"  >LOG IN</button>
+</div>
+</div>
+</form>
+
+<script>
+function reg()
+{
+			window.location="registration.html";
+	
+}
+</script>
+
+
+</body>
+
+</html>
