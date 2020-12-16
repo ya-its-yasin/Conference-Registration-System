@@ -1,10 +1,3 @@
-<html><head>
-<title>admin pg</title><link rel="icon" href="images/ap5.png" />
-<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-</head>
-<body style="background-color:black;"><div style=" background-color:black;"><br><br>
-</div><br><br>
 
 <?php
 // $conn= new mysqli('localhost','root','','dbmspro');
@@ -37,5 +30,3 @@ $conn->close();
 
 
 ?>
-</body>
-</html>
